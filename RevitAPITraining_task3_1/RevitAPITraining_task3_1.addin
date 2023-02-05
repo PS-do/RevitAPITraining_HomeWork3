@@ -5,6 +5,6 @@
 		<AddInId>A2D95EF8-B678-4EF2-AA8E-8AFF46C16E67</AddInId>
 		<FullClassName>RevitAPITraining_task3_1.Main</FullClassName>
 		<VendorId>ADSK</VendorId>
-		<Text>Первое приложение для Revit</Text>
+		<Text>объём выбранных стен</Text>
 	</AddIn>	
 </RevitAddIns>
