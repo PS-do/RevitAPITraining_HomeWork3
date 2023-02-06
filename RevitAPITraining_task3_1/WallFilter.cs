@@ -17,7 +17,7 @@ namespace RevitAPITraining_task3_1
 
         public bool AllowReference(Reference reference, XYZ position)
         {
-            return false;
+            return true;
         }
     }
 }

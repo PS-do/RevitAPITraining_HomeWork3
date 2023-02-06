@@ -20,7 +20,7 @@ namespace RevitAPITraining_task3_1
             Document doc = uidoc.Document;
 
 
-            IList<Reference> selectedElementRefList = uidoc.Selection.PickObjects(ObjectType.Face, new WallFilter(), "Выберите стены");
+            IList<Reference> selectedElementRefList = uidoc.Selection.PickObjects(ObjectType.Face, new WallFilter(), "Выберите стены по граням");
             double sumVolume = 0;
             foreach (var selectedElement in selectedElementRefList)
             {
@@ -31,8 +31,6 @@ namespace RevitAPITraining_task3_1
                         oWall.get_Parameter(BuiltInParameter.HOST_VOLUME_COMPUTED).AsDouble()
                         , UnitTypeId.CubicMeters);
                 }
-
-
             }
             TaskDialog.Show("Объм стен", $"Суммарный объём выбранных стен: {sumVolume} м³");
             return Result.Succeeded;
