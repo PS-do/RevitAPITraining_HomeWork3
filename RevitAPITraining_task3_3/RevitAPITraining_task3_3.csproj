@@ -57,6 +57,9 @@
   <ItemGroup>
     <Content Include="RevitAPITraining_task3_3.addin" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="rvt_file\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>xcopy "$(TargetDir)*.*" "C:\Program Files\RevitAPITrainig\" /y /i
