@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rvt_file", "rvt_file", "{DA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPITraining_task3_3", "RevitAPITraining_task3_3\RevitAPITraining_task3_3.csproj", "{811E4365-F6C3-4403-957F-5CF492AA7B4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPITraining_task3_4", "RevitAPITraining_task3_4\RevitAPITraining_task3_4.csproj", "{A9EE9FCE-5B8C-4352-B2C0-E4924C12F2B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{811E4365-F6C3-4403-957F-5CF492AA7B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{811E4365-F6C3-4403-957F-5CF492AA7B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{811E4365-F6C3-4403-957F-5CF492AA7B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9EE9FCE-5B8C-4352-B2C0-E4924C12F2B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9EE9FCE-5B8C-4352-B2C0-E4924C12F2B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9EE9FCE-5B8C-4352-B2C0-E4924C12F2B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9EE9FCE-5B8C-4352-B2C0-E4924C12F2B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
